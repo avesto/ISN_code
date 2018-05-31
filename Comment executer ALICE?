@@ -22,3 +22,6 @@ L'éxecution d'ALICE est très simple.
 5*/ On peut ensuite réexecuter la commande:
       python model.py model<n>.h5 afin de voir comment le nouveau modèle se débrouille
       
+Le lien drive ci dessous renvoie vers une vidéo démontrant qu'est ce qui se passe lorsque ALT F12 est entré, donc quand ALICE est lancée:
+      https://drive.google.com/open?id=1X_mis5v0Xf3m-u5tmPPHDNXo0_n6k0A2
+      
