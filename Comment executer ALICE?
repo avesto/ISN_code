@@ -1,0 +1,24 @@
+*-------------------------------------------------*
+Description de l'execution d'ALICE
+MAI 2018
+Par A. MOLAEI TS3
+*-------------------------------------------------*
+
+
+L'éxecution d'ALICE est très simple. 
+
+
+
+1*/ Tout d'abord, il faut démarrer Udacity, et le mettre en mode entrainement. Ensuite, il faut générer les données, qui seront classées dans le classeur .CSV
+
+2*/ Une fois que les données sont acquises (au moins un tour suffit), il faut executer le modèle avec la commande suivante dans un prompt anaconda:
+      python drive.py model.h5
+     
+3*/ Maintenant, pour entrainer le modèle, on entre, toujours dans un prompt anaconda:
+      python model.py
+      
+4*/ Après avoir entrainé cette commande, un fichier sera généré, modèle<n>.h5 A chaque fois que la performance à n est meilleure que la performance à n-1. Ce n correspond à la génération du fichier, (si c'est le 5eme modèle généré par exemple, n=5). 
+
+5*/ On peut ensuite réexecuter la commande:
+      python model.py model<n>.h5 afin de voir comment le nouveau modèle se débrouille
+      
