@@ -1,7 +1,9 @@
-;Raccourci permettant de lancer l'IA avec une seule touche
+;Raccourci permettant de lancer ALICE avec une seule touche
+
 ;-------------------------------------------------
 ;Script AHK (autohotkey), utilitaire très sympa permettant de faire des macros très puissants
 ;Ecrit sur Visual Studio Code
+;Demonstration disponible sur le lien drive suivant: https://drive.google.com/open?id=1X_mis5v0Xf3m-u5tmPPHDNXo0_n6k0A2
 ;-------------------------------------------------
 
 ;La problématique:  en gros, pour lancer ALICE, c'est long: il faut lancer udacity, puis lancer un invite anaconda, se placer dans le bon dossier, se placer dans le bon conda, puis executer le drive.py, ainsi que le modèle généré. Bon, en vrai, c'est pas si long que ca, mais c'est du travail fastidieux qui peux etre automatisé, parce que le minimum de travail humain c'est cool, cf parcoursup
